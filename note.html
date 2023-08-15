@@ -1,11 +1,152 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-    <title>筆記</title>
+    <title>NJ - 筆記</title>
+    <link rel = "stylesheet" href = "style.css">
 </head>
 
 <body>
-    <p>Hello World</p>
+    <div class = "all">
+        <div class = "menu">
+            <div class = "web-box">
+                <h2 class = "web-text">NJ website</h2>
+            </div>
+            <div class = "box2">
+                <div class = "box-list">
+                    <img src = "home.png" width = 20px height = 20px style = "margin-top: 1px; padding-right: 11px; opacity: 0.5">
+                    <a href = "index.html"><p>首頁</p></a>
+                </div>
+                <div class = "box-list">
+                    <img src = "graduation.png" width = 22px height = 22px style = "margin-top: 2px; padding-right: 9px; opacity: 0.5">
+                    <a href = "index.html">個人經歷</a>
+                </div>
+                <div class = "box-list">
+                    <img src = "notes.png" width = 18px height = 18px style = "margin-top: 2px; margin-left: 4px; padding-right: 9px; opacity: 0.5">
+                    <a href = "note.html">筆記</a>
+                </div>
+                <div class = "box-list">
+                    <img src = "nlp.png" width = 18px height = 18px style = "margin-top: 2px; margin-left: 3px; padding-right: 10px; opacity: 0.5">
+                    <a href = "index.html">作品專區</a>
+                </div>
+                <div class = "box-list">
+                    <img src = "link.png" width = 16px height = 16px style = "margin-top: 4px; margin-left: 3px; padding-right: 11px; opacity: 0.5">
+                    <a href = "index.html">連結</a>
+                </div>
+            </div>
+            <div class = "box3">
+                <p class = "info"><strong>聯絡資訊</strong></p>
+                <div style = "margin-left: 30px;">
+                    <a href = "https://www.facebook.com/profile.php?id=100026887234445">
+                        <img src = "fb_icon.jpg" class = "info-icon">
+                    </a>
+                    <a href = "https://www.instagram.com/sj1036813">
+                        <img src = "ig_icon.jpg" class = "info-icon">
+                    </a>
+                    <a href = "https://www.discordapp.com/users/1015604646666043444">
+                        <img src = "dc_icon.jpg" class = "info-icon">
+                    </a>
+                    <a href = "https://github.com/FengDian-Su">
+                        <img src = "github_icon.jpg" class = "info-icon">
+                    </a>
+                    <a href = "https://hackmd.io/@BcfN2VSeQCCpzWwYKFBnxQ">
+                        <img src = "hackmd_icon.jpg" class = "info-icon">
+                    </a>
+                </div>
+                <p class = "info"><strong>近期活動</strong></p>
+                <ul style = "margin-left: 6px; margin-top: 24px">
+                    <li style = "margin-bottom: 10px;">熱衷於看韓劇 (求推！)</li>
+                    <li style = "margin-bottom: 10px;">為大三生活感到煩燥</li>
+                    <li style = "margin-bottom: 10px;">正在學習寫網頁</li>
+                    <li style = "margin-bottom: 10px;">對於專題感到迷茫</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "cover">
+            <img src = "cover.jpg" width = 1035px height = 200px style = "opacity: 0.85;">
+            <div style = "display: flex"><div>
+                <h1 style = "margin-top: 20px; margin-bottom: 5px; font-size: 30px; color:rgba(0, 0, 0, 0.71); width: 400px;">筆記</h1>
+            <div></div>
+
+            <div class = "note-area" id = "scroll-1">
+                <div class = "note-1">
+                    <p class = "text-title">這是我的第一篇筆記</p>
+                    <div style = "height: 50px; width: 730px; margin: 20px;">
+                        <p class = "text-info">發布日期 : 2023.8.15</p>
+                        <p class = "text-info">分類 : 無</p>
+                    </div>
+                </div>
+                <div id = "text-container" style = "height: 205px;width: 715px; background-color:aqua; margin: 25px;margin-top:0px;">
+                    hello
+                </div>
+                
+            </div>
+
+            </div>
+                <div style = "height: 450px; width: 265px; margin-left: 20px;">
+                    <div class = "change-mode">
+                        <a href = "https://fengdian-su.github.io/NJ-website/" class = "web-com">電腦版</a>
+                        <a class = "web-pho">手機版</a>
+                    </div>
+                    <div style = "margin-left:14px; height:375px;">
+                        <p class = "recommand">每月推薦</p>
+                        <ul class = "rec-ul" id = "scroll-1">
+                            <li class = "rec-li"><div class = "rec-div"><a href = "https://www.w3schools.com/">
+                                <div style = "display: flex;">
+                                    <div class = "rec-dd">
+                                        <p style = "margin-top: 7px; margin-bottom: 4px; font-size:18px">W3School</p>
+                                        <p style = "margin: 0; font-size:14px">新手入門網頁自學工具</p>
+                                    </div>
+                                    <img src = "W3Schools.png" class = "rec-img">
+                                </div>
+                            </a></div></li>
+                            <li class = "rec-li"><div class = "rec-div"><a href = "https://www.coursera.org/">
+                                <div style = "display: flex;">
+                                    <div class = "rec-dd">
+                                        <p style = "margin-top: 7px; margin-bottom: 4px; font-size:18px">Coursera</p>
+                                        <p style = "margin: 0; font-size:14px">各種免費線上課程</p>
+                                    </div>
+                                    <img src = "coursera.png" class = "rec-img">
+                                </div>
+                            </a></div></li>
+                            <li class = "rec-li"><div class = "rec-div"><a href = "https://ithelp.ithome.com.tw/users/20140744/ironman/4491">
+                                <div style = "display: flex;">
+                                    <div class = "rec-dd">
+                                        <p style = "margin-top: 5px; margin-bottom: 4px; font-size:18px">NLP 系列</p>
+                                        <p style = "margin: 0; font-size:14px">自然語言處理新手教學</p>
+                                    </div>
+                                    <img src = "itbun.png" class = "rec-img">
+                                </div>
+                            </a></div></li>
+                            <li class = "rec-li"><div class = "rec-div"><a href = "https://www.w3schools.com/">
+                                <div style = "display: flex;">
+                                    <div class = "rec-dd">
+                                        <p style = "margin-top: 7px; margin-bottom: 4px; font-size:18px">W3School</p>
+                                        <p style = "margin: 0; font-size:14px">新手入門網頁自學工具</p>
+                                    </div>
+                                    <img src = "W3Schools.png" class = "rec-img">
+                                </div>
+                            </a></div></li>
+                            <li class = "rec-li"><div class = "rec-div"><a href = "https://www.w3schools.com/">
+                                <div style = "display: flex;">
+                                    <div class = "rec-dd">
+                                        <p style = "margin-top: 7px; margin-bottom: 4px; font-size:18px">W3School</p>
+                                        <p style = "margin: 0; font-size:14px">新手入門網頁自學工具</p>
+                                    </div>
+                                    <img src = "W3Schools.png" class = "rec-img">
+                                </div>
+                            </a></div></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src = "script.js"></script>
 </body>
 
 </html>
